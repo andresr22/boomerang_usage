@@ -2,18 +2,18 @@
 
 ## Getting Started
 
-First you need to add the `boomerang` directory to your source project directory
+First you need to add the `boomerang` directory to your html directory
 
 ## Running the tests
 
-In your `index.hmtl` add the next code
+In your `index.html` add the next code
 
 ```html
 <script>
 	BOOMR.init({
-                beacon_url: "http://172.18.84.139:9902/event",
+                beacon_url: "http://172.18.84.139:9902/event", // Caudal Server
                 BW: {
-                     base_url: "http://172.18.84.138/example/boomerang/images/",
+                     base_url: "http://example.com/boomerang/images/", // boomerang directory provided in this repo
                      block_beacon: true
                 }
 	});
